@@ -1,0 +1,20 @@
+# Girder-client Platform -*- mode: markdown -*-
+
+This image provides :
+* girder-client
+
+Basic girder-cli usage:
+* To connect to girder instance:
+```
+export GIRDER_API_KEY=abcdefghijklmopqrstuvwxyz012345678901234
+girder-cli --api-url https://girder.example.com:443/api/v1  ...
+```
+
+* To upload:
+ ```
+girder-cli upload 54b6d41a8926486c0cbca367 test_folder --parent-type folder --dry-run
+```
+
+For more info see
+https://girder.readthedocs.io/en/latest/python-client.html
+
